@@ -1,0 +1,100 @@
+body {
+    background-color: #0054a4; /* HEX renk kodu kullanarak arka plan rengini ayarla */
+  }
+
+header{
+    display: flex;
+  justify-content: center; /* Yatayda ortala */
+  align-items: center; /* Dikeyde ortala */
+  height: 200px; /* Header yüksekliği ayarlayın */
+}
+
+nav{
+    background-color: white; border: 5px solid #10397f 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Yazıları eşit mesafelerle ayır */
+    padding: 10px; /* İstenirse içeriğin etrafına bir iç boşluk ekleyebilirsiniz */
+    
+  }
+
+.container {
+    display: flex; /* İçerikleri yatay olarak yan yana yerleştir */
+}
+
+.takim{
+    max-width: 100%;
+  height: auto;
+}
+
+
+section{
+    background-color: white; border: 5px solid #10397f
+    
+}
+
+.section-title {
+    font-size: 50px; /* Başlık font boyutunu ayarlayın */
+    text-align: center; /* Başlığı yatayda ortala */
+  }
+
+aside{
+    background-color: white; border: 5px solid #10397f
+}
+
+.aside-title{
+    font-size: 50px; /* Başlık font boyutunu ayarlayın */
+    text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+.sidebar{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+}
+
+h1{
+    color: white;
+    font-size: 100px;
+    
+  }
+
+h2{
+    color: #0054a4;
+}
+
+a{
+    color: #0054a4;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.not{
+    color: white;
+    text-align: center;
+}
+
+hr {
+    height: 10px; /* Yatay çizginin yüksekliği (kalınlığı) */
+    background-color: #10397f; /* Yatay çizginin rengi */
+    border: none; /* Çerçeve sınırını kaldır */
+  }
+p{
+    font-size: 24px;
+}
+
+.image-cube {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+  }
